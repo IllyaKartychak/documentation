@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "documentation"
+version = "0.1.0"
+description = ""
+authors = ["IllyaKartychak <ikartychak@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+mkdocs-material = "^9.4.13"
+fastapi = {extras = ["all"], version = "^0.104.1"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
